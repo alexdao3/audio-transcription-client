@@ -1,10 +1,10 @@
 (ns fullstack.ui.core
   (:require
    [reagent.core :as reagent]
-   [fullstack.ui.views :as views]
    [fullstack.ui.events :as events]
+   [fullstack.ui.views :as views]
    [fullstack.ui.routes :as routes]
-   [re-frame.core :as rf]))
+   [re-frame.core :as rf])) 
 
 (defn dev-setup []
   (enable-console-print!))

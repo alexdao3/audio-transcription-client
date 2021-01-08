@@ -1,6 +1,11 @@
 {
   "name": "fullstack",
   "main": "index.js",
+  "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "tw": "tailwind build tw/style.css -- -o public/css/main.css",
+      "watch": "shadow-cljs watch app"
+   },
   "devDependencies": {
     "shadow-cljs": "^2.8.83"
   },
@@ -9,6 +14,7 @@
     "highlight.js": "9.15.10",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-highlight.js": "1.0.7"
+    "react-highlight.js": "1.0.7",
+    "tailwindcss": "^1.9.6"
   }
 }

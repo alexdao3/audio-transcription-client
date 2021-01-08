@@ -5,4 +5,6 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 (def initial-db
-  {:current-page :home})
+  {:current-page :home
+   :views {:home {:num-subreddits-visible 5}}
+   :requests {:transcriptions {}}})

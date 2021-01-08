@@ -16,6 +16,7 @@
 
     reagent  {:mvn/version "0.9.1"}
     re-frame {:mvn/version "0.11.0"}
+    day8.re-frame/http-fx {:mvn/version "0.2.1"}
 
     metosin/reitit       {:mvn/version "0.4.2"}
     metosin/reitit-malli {:mvn/version "0.4.2"}
